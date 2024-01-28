@@ -13,6 +13,7 @@ namespace PayMasterPro.Models
         public int Age { get; set; }
         [Required]
         public string Email { get; set; }
+        [Required]
         public string Password { get; set; }
         public string Address { get; set; }
         public int PositionId { get; set; }

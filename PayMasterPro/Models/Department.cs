@@ -6,6 +6,6 @@ namespace PayMasterPro.Models
     {
         public int DepartmentId { get; set; }
         [Required]
-        public string  DepartmentName { get; set; }
+        public string DepartmentName { get; set; }
     }
 }
