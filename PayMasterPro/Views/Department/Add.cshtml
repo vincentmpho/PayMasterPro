@@ -1,0 +1,20 @@
+﻿@model Department
+
+@{
+    ViewData["Title"] = "Add";
+}
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *,AuthoringTagHelpers
+
+
+<form method="post" asp-action="Add">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+
+            <label>Department Name</label>
+            <input asp-for="DepartmentName"
+            class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
